@@ -3,4 +3,3 @@
 Create a workspace by using catkin_make
 ```
 source /opt/ros/noetic/setup.bash
-```

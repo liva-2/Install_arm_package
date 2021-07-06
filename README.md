@@ -1,4 +1,4 @@
-# Install_arm_package
+## Install_arm_package
 # 1- Preparing ROS
 Create a workspace by using catkin_make
 ```
@@ -54,4 +54,4 @@ catkin_make
 ```
 roslaunch robot_arm_pkg check_motors.launch
 ```
-# now we able to controll the arm
+# 3-now we able to controll the arm

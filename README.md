@@ -1,5 +1,5 @@
-## Install_arm_package
-# 1- Preparing ROS
+# Install_arm_package
+## 1- Preparing ROS
 Create a workspace by using catkin_make
 ```
 mkdir -p ~/catkin_ws/src
@@ -16,7 +16,7 @@ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 ```
 source ~/.bashrc
 ```
-# 2- Installing the package arduino_robot_arm
+## 2- Installing the package arduino_robot_arm
 * Add the “arduino_robot_arm” package to “src” folder
 ```
  cd ~/catkin_ws/src
@@ -50,8 +50,8 @@ sudo apt-get install ros-melodic-ros-controllers ros-melodic-ros-control
 ```
 catkin_make
 ```
-# Controlling the motors
+### 3-Controlling the motors
 ```
 roslaunch robot_arm_pkg check_motors.launch
 ```
-# 3-now we able to controll the arm
+## 4-now we able to controll the arm

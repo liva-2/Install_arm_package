@@ -1,2 +1,3 @@
 # Install_arm_package
-f
+# 1- Preparing ROS
+Create a workspace by using catkin_make

@@ -55,3 +55,4 @@ catkin_make
 roslaunch robot_arm_pkg check_motors.launch
 ```
 ## 4-now we able to controll the arm
+
